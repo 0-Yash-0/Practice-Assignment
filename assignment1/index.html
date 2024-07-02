@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Gradient Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Gradient Selector</h1>
+        <canvas id="gradient-canvas" width="300" height="150"></canvas>
+        <p id="color-code">Selected Color: #ff7e5f</p>
+        <label for="gradient-selector">Select Gradient:</label>
+        <select id="gradient-selector">
+            <option value="linear-gradient(to right, #ff7e5f, #feb47b)">Warm Sunset</option>
+            <option value="linear-gradient(to right, #6a11cb, #2575fc)">Cool Blues</option>
+            <option value="linear-gradient(to right, #ff9a9e, #fecfef)">Sweet Pink</option>
+            <option value="linear-gradient(to right, #a18cd1, #fbc2eb)">Dreamy Purple</option>
+            <option value="linear-gradient(to right, #fad0c4, #ffd1ff)">Soft Peach</option>
+        </select>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
